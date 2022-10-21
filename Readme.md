@@ -8,7 +8,7 @@ wget -q -O - https://bit.ly/3OcdIfO | bash -s -- 1.29.2
 ## 2. Clone repository:
 
 ```
-git clone https://github.com/Staketab/sui-node.git
+cd && git clone https://github.com/Staketab/sui-node.git
 cd sui-node
 ```
 
