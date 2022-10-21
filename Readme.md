@@ -12,7 +12,11 @@ git clone https://github.com/Staketab/sui-node.git
 cd sui-node
 ```
 
-## 3. Start the Node
+## 3. Download Genesis:
+```
+wget -O $HOME/sui-node/genesis.blob https://github.com/MystenLabs/sui-genesis/raw/main/devnet/genesis.blob
+```
+## 4. Start the Node
 Run this command to start the node:  
 ```
 docker-compose up -d
