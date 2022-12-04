@@ -13,6 +13,8 @@ services:
       - "9001"
       - "9184"
     restart: always
+    #environment:
+    #  - RUST_LOG=info,sui_core=debug
     volumes:
       - ./config.yml:/sui/fullnode.yaml:ro
       - ./genesis.blob:/sui/genesis.blob:ro
