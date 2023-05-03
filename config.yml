@@ -4,9 +4,12 @@ db-path: "suidb"
 network-address: "/dns/localhost/tcp/8080/http"
 metrics-address: "0.0.0.0:9184"
 json-rpc-address: "0.0.0.0:9000"
-websocket-address: "0.0.0.0:9001"
 enable-event-processing: true
 
 genesis:
   # Update this to the location of where the genesis file is stored
   genesis-file-location: "genesis.blob"
+p2p-config:
+  seed-peers:
+    - address: /dns/fullnode.devnet.sui.io/udp/8084
+    - address: /dns/rpc-ws-devnet.suiscan.xyz/udp/8084

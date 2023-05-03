@@ -6,11 +6,9 @@ services:
     container_name: sui
     ports:
       - "0.0.0.0:9000:9000"
-      - "0.0.0.0:9001:9001"
       - "0.0.0.0:9184:9184"
     expose:
       - "9000"
-      - "9001"
       - "9184"
     restart: always
     #environment:
